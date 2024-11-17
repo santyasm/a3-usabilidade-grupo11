@@ -2,7 +2,7 @@ import { Header, Home } from "./components";
 
 function App() {
   return (
-    <div>
+    <div className="font-inter">
       <Header />
 
       <Home />

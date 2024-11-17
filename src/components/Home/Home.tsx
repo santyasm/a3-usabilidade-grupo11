@@ -1,28 +1,30 @@
 import { FC } from "react";
-import { PrimaryButtonXL } from "../PrimaryButtonXL";
-import { RiHealthBookLine } from "react-icons/ri";
-import { GiTransparentTubes } from "react-icons/gi";
 
 export const Home: FC = () => {
   return (
-    <div className="flex items-center justify-center mt-20 sm:px-0 px-32">
-      <div className="flex flex-row md:flex-col items-center gap-10 lg:gap-20">
-        <img
-          src="images/home.png"
-          alt="children"
-          className="w-full sm:max-w-full sm:h-auto max-w-[686px]"
-        />
-        <div className="flex flex-col sm:gap-4 gap-6 w-full max-w-[300px]">
-          <PrimaryButtonXL
-            title="Marque uma consulta"
-            Icon={RiHealthBookLine}
-          />
+    <div className="bg-primary relative mb-20">
+      <div className="flex items-center justify-between h-28"></div>
 
-          <PrimaryButtonXL
-            title="Marque seus exames"
-            Icon={GiTransparentTubes}
+      <div className="flex justify-center">
+        <div className="relative z-10 flex items-center justify-between bg-gray-10 pl-[60px] w-[70%]">
+          <div className="flex flex-col gap-8">
+            <h1 className="text-primary leading-[48px] font-semibold text-[36px] w-[340px] uppercase">
+              Bem vindo ao Hospital Infantil São Judas Tadeu
+            </h1>
+            <p className="w-[340px] font-light text-gray-500">
+              O Hospital Infantil São Judas Tadeu é um lugar de excelência em
+              saúde infantil, com um atendimento completo, equipe especializada,
+              e uma infraestrutura de excelência.
+            </p>
+          </div>
+          <img
+            src="images/home.png"
+            alt="children"
+            className="w-full sm:max-w-full sm:h-auto max-w-[686px]"
           />
         </div>
+
+        <div className="bg-gray-50 absolute inset-x-0 bottom-0 h-[50%] z-0" />
       </div>
     </div>
   );
