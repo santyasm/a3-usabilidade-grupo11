@@ -1,11 +1,11 @@
-import { Header, Home } from "./components";
+import { Header, Home, About } from "./components";
 
 function App() {
   return (
     <div className="font-inter">
-      <Header />
-
-      <Home />
+      <Header/>
+      <Home/>
+      <About/>
     </div>
   );
 }
