@@ -2,8 +2,17 @@ import { FC, useState } from "react";
 import { SpecialtyCard, SpecialtyModal } from "..";
 import { specialties } from "./utils";
 
+interface Specialty {
+  id: string;
+  label: string;
+  img: string;
+  description: string;
+}
+
 export const Specialties: FC = () => {
-  const [selectedSpecialty, setSelectedSpecialty] = useState(null);
+  const [selectedSpecialty, setSelectedSpecialty] = useState<Specialty | null>(
+    null
+  );
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const onClickSpecialtyCard = (specialty: any) => {
@@ -13,6 +22,7 @@ export const Specialties: FC = () => {
 
   const closeModal = () => {
     setIsModalOpen(false);
+    setSelectedSpecialty(null);
   };
 
   return (
@@ -40,9 +50,9 @@ export const Specialties: FC = () => {
         <SpecialtyModal
           isOpen={isModalOpen}
           onClose={closeModal}
-          title={selectedSpecialty.label}
-          description={selectedSpecialty.description}
-          img={selectedSpecialty.img}
+          title={selectedSpecialty?.label}
+          description={selectedSpecialty?.description}
+          img={selectedSpecialty?.img}
         />
       )}
     </div>
