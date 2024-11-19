@@ -5,7 +5,7 @@ export const About: FC = () => {
     <div className="flex items-center justify-between h-0"></div>
     <div className="flex justify-center">
       <div className="relative z-10 flex items-center justify-between ">
-        <div className="flex flex-col gap-4 mr-20">
+        <div className="flex flex-col gap-4 mr-40">
           <h1 className="text-primary leading-[48px] font-semibold text-[36px] w-[340px] uppercase">
             Quem somos
             </h1>
