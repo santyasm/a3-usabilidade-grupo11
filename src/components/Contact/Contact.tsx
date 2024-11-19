@@ -7,7 +7,7 @@ export const Contact: FC = () => {
           <img
             src="images/Contact.png"
             alt="children"
-            className="w-[55%] h-auto  md:w-full md:h-auto"
+            className="w-[55%] h-auto  md:w-full md:h-auto object-cover"
           />
           <div className="w-[45%] md:w-full h-full bg-primary flex flex-col justify-center md:h-[611px]">
             <div className="self-center text-left md:text-center flex md:items-center flex-col">

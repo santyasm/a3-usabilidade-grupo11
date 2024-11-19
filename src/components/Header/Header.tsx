@@ -2,7 +2,7 @@ import { FaPhone } from "react-icons/fa6";
 
 export const Header = () => {
   return (
-    <div className="flex px-[20%] items-center bg-white min-h-20 justify-between ">
+    <div className="flex px-[20%] items-center bg-white min-h-20 justify-between py-8">
       <div className="flex items-center gap-4">
         <img
           src="icons/logo.svg"
