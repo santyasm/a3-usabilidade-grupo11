@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-export const Convenios: FC = () => {
+export const Agreements: FC = () => {
   return (
     <div className="flex flex-col items-center justify-center text-center my-15">
       <div>
