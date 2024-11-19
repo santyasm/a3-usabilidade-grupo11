@@ -1,20 +1,17 @@
 import { FC } from "react";
 export const Contact: FC = () => {
   return (
-    <div className=" relative mb-10">
-      <div className="flex items-center justify-between h-0"></div>
+    <div className="relative">
       <div className="flex justify-center">
-        <div className="relative z-10 flex items-center justify-between ">
-          <div>
-            <img
-              src="images/Contact.png"
-              alt="children"
-              className="w-[866px] h-[611px]"
-            />
-          </div>
-          <div className="w-[595px] h-[611px] bg-primary flex flex-col justify-center">
-            <div className="ml-20 text-left">
-              <h1 className="text-white leading-[48px] font-medium text-[60px] w-[505px]">
+        <div className="flex items-center justify-between w-full md:flex-col">
+          <img
+            src="images/Contact.png"
+            alt="children"
+            className="w-[55%] h-auto  md:w-full md:h-auto"
+          />
+          <div className="w-[45%] md:w-full h-full bg-primary flex flex-col justify-center md:h-[611px]">
+            <div className="self-center text-left md:text-center flex md:items-center flex-col">
+              <h1 className="text-white leading-[58px] font-medium text-[60px] w-[505px] md:w-full mb-8">
                 Informações de <span className="text-[#19DCFE]">contato</span>
               </h1>
               <div className="mt-6">
@@ -25,14 +22,13 @@ export const Contact: FC = () => {
                   height="100"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
+                />
               </div>
-              <p className="w-[340px] font-light text-white text-[15px] mt-[20px] leading-[30px]">
-  
+              <p className="font-light text-white text-[15px] mt-[20px] leading-[30px]">
                 <span className="font-bold">Telefone:</span> (11) 4433-6767
                 <br />
                 <span className="font-bold">E-mail: </span>
-                write@saifeehospital.com
+                contato@hospitalinfantilsaojudastadeu.com
               </p>
             </div>
           </div>

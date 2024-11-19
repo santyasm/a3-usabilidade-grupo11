@@ -2,7 +2,7 @@ import { FC } from "react";
 
 export const Home: FC = () => {
   return (
-    <div className="bg-primary relative mb-20">
+    <div className="bg-primary relative">
       <div className="flex items-center justify-between h-28"></div>
 
       <div className="flex justify-center">

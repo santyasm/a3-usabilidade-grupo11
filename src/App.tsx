@@ -3,11 +3,13 @@ import { Header, Home, About, Contact, Convenios } from "./components";
 function App() {
   return (
     <div className="font-inter">
-      <Header/>
-      <Home/>
-      <About/>
-      <Contact/>
-      <Convenios/>
+      <Header />
+      <div className="flex flex-col gap-40">
+        <Home />
+        <About />
+        <Contact />
+        <Convenios />
+      </div>
     </div>
   );
 }
