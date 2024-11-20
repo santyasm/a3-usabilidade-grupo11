@@ -2,6 +2,7 @@ import { FC } from "react";
 
 export const Agreements: FC = () => {
   return (
+    <section id="planos">
     <div className="flex flex-col items-center justify-center text-center my-15">
       <div>
         <h1 className="text-primary leading-[48px] font-bold text-[64px] mb-8">
@@ -31,5 +32,6 @@ export const Agreements: FC = () => {
         />
       </div>
     </div>
+    </section>
   );
 };

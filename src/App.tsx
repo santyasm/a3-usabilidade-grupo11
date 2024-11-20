@@ -5,6 +5,7 @@ import {
   Contact,
   Agreements,
   Specialties,
+  Commitment,
 } from "./components";
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
         <Contact />
         <Agreements />
         <Specialties />
-
+        <Commitment />
         <div />
       </div>
     </div>

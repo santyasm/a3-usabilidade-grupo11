@@ -1,6 +1,7 @@
 import { FC } from "react";
 export const About: FC = () => {
   return (
+    <section id="quem-somos">
     <div className=" relative">
       <div className="flex items-center justify-between h-0"></div>
       <div className="flex justify-center">
@@ -28,5 +29,6 @@ export const About: FC = () => {
         <div className="bg-gray- absolute inset-x-0 bottom-0 h-[50%] z-0" />
       </div>
     </div>
+    </section>
   );
 };

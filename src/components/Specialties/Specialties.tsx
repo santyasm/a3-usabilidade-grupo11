@@ -26,6 +26,7 @@ export const Specialties: FC = () => {
   };
 
   return (
+    <section id="especialidades">
     <div className="flex flex-col items-center">
       <h1 className="text-primary leading-[48px] font-bold text-[64px] mb-8">
         Especialidades
@@ -56,5 +57,6 @@ export const Specialties: FC = () => {
         />
       )}
     </div>
+    </section>
   );
 };

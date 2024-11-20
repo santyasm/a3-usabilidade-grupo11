@@ -2,6 +2,7 @@ import { FC } from "react";
 
 export const Home: FC = () => {
   return (
+    <section id="home">
     <div className="bg-primary relative">
       <div className="flex items-center justify-between h-28"></div>
 
@@ -27,5 +28,6 @@ export const Home: FC = () => {
         <div className="bg-gray-50 absolute inset-x-0 bottom-0 h-[50%] z-0" />
       </div>
     </div>
+    </section>
   );
 };
