@@ -7,3 +7,5 @@ export * from "./PrimaryButtonXL";
 export * from "./Specialties";
 export * from "./SpecialtyCard";
 export * from "./SpecialtyModal";
+export * from "./Commitment";
+export * from "./Navbar";

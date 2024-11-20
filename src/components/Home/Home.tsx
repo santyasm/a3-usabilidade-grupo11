@@ -1,9 +1,10 @@
 import { FC } from "react";
+import { Navbar } from "..";
 
 export const Home: FC = () => {
   return (
-    <div className="bg-primary relative">
-      <div className="flex items-center justify-between h-28"></div>
+    <section id="home" className="bg-primary relative">
+      <Navbar />
 
       <div className="flex justify-center">
         <div className="relative z-10 flex items-center justify-between bg-gray-10 pl-[60px] w-[70%] md:py-20 md:flex-col md:items-center md:px-4">
@@ -26,6 +27,6 @@ export const Home: FC = () => {
 
         <div className="bg-gray-50 absolute inset-x-0 bottom-0 h-[50%] z-0" />
       </div>
-    </div>
+    </section>
   );
 };
