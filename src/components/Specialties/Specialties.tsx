@@ -26,8 +26,10 @@ export const Specialties: FC = () => {
   };
 
   return (
-    <section id="especialidades">
-    <div className="flex flex-col items-center">
+    <section
+      id="especialidades"
+      className="flex flex-col items-center pt-20 pb-40"
+    >
       <h1 className="text-primary leading-[48px] font-bold text-[64px] mb-8">
         Especialidades
       </h1>
@@ -56,7 +58,6 @@ export const Specialties: FC = () => {
           img={selectedSpecialty?.img}
         />
       )}
-    </div>
     </section>
   );
 };
