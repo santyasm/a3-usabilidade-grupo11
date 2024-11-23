@@ -30,10 +30,10 @@ export const Specialties: FC = () => {
       id="especialidades"
       className="flex flex-col items-center pt-20 pb-40"
     >
-      <h1 className="text-primary leading-[48px] font-bold text-[64px] mb-8">
+      <h1 className="text-primary leading-[48px] font-bold text-7xl mb-8 sm:text-5xl">
         Especialidades
       </h1>
-      <p className="max-w-[550px] font-light text-gray-500 text-center">
+      <p className="max-w-[550px] font-light text-gray-500 text-center sm:w-[90%]">
         Nossos médicos são altamente capacitados para cuidar dos seus filhos com
         excelência.
       </p>

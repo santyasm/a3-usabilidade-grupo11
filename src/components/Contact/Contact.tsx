@@ -11,7 +11,7 @@ export const Contact: FC = () => {
           />
           <div className="w-[45%] md:w-full h-full bg-primary flex flex-col justify-center md:h-[611px]">
             <div className="self-center text-left md:text-center flex md:items-center flex-col">
-              <h1 className="text-white leading-[58px] font-medium text-[60px] w-[505px] md:w-full mb-8">
+              <h1 className="text-white leading-[58px] font-medium text-6xl w-[505px] md:w-full mb-8 sm:text-5xl">
                 Informações de <span className="text-[#19DCFE]">contato</span>
               </h1>
               <div className="mt-6">
