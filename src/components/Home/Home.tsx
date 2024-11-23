@@ -3,13 +3,13 @@ import { Navbar } from "..";
 
 export const Home: FC = () => {
   return (
-    <section id="home" className="bg-primary relative">
+    <section id="home" className="bg-primary relative w-full">
       <Navbar />
 
-      <div className="flex justify-center">
-        <div className="relative z-10 flex items-center justify-between bg-gray-10 pl-[60px] w-[70%] md:py-20 md:flex-col md:items-center md:px-4">
+      <div className="flex justify-center mt-8">
+        <div className="relative z-10 flex items-center justify-between bg-gray-10 pl-[60px] w-[70%] md:py-20 md:flex-col md:items-center md:px-4 sm:w-full">
           <div className="flex flex-col gap-8">
-            <h1 className="text-primary leading-[150%] font-semibold text-[36px] w-[340px] uppercase md:text-[14px]">
+            <h1 className="text-primary leading-[150%] font-semibold text-[36px] w-[340px] uppercase md:text-[20px]">
               Bem vindo ao Hospital Infantil São Judas Tadeu
             </h1>
             <p className="max-w-[350px] font-light text-gray-500">

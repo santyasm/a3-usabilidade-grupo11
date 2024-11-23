@@ -2,11 +2,19 @@ import { FC } from "react";
 
 export const Navbar: FC = () => {
   return (
-    <nav className="mt-8 flex space-x-[110px] text-white justify-center py-[60px] font-light">
-      <a href="#home">Home</a>
-      <a href="#quem-somos">Quem somos nós</a>
-      <a href="#planos">Planos e convênios</a>
-      <a href="#especialidades">Especialidades</a>
+    <nav className="mt-8 flex flex-wrap justify-center gap-6 space-x-[100px] md:space-x-[16px] sm:gap-0 text-white py-6 font-light overflow-clip sm:text-[12px]">
+      <a href="#home" className="text-center">
+        Home
+      </a>
+      <a href="#quem-somos" className="text-center">
+        Quem somos nós
+      </a>
+      <a href="#planos" className="text-center">
+        Planos e convênios
+      </a>
+      <a href="#especialidades" className="text-center">
+        Especialidades
+      </a>
     </nav>
   );
 };
