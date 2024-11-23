@@ -3,12 +3,12 @@ import { Navbar } from "..";
 
 export const Commitment: FC = () => {
   return (
-    <section className="flex flex-col items-center justify-center  bg-primary text-white text-center pt-40">
-      <h1 className="font-medium mb-8 text-6xl w-[25%]">
+    <section className="flex flex-col items-center justify-center  bg-primary text-white text-center pt-40 sm:pt-20">
+      <h1 className="font-medium mb-8 text-6xl w-[25%] sm:w-[90%] leading-[106%] sm:text-5xl">
         Compromisso com a <span className="text-[#19DCFE]">vida</span>
       </h1>
 
-      <p className="text-xl font-light w-[70%] text-[#e3e3e3] text-center leading-8">
+      <p className="text-xl font-light w-[70%] text-[#e3e3e3] text-center leading-8 sm:text-sm sm:w-[90%]">
         No Hospital Infantil São Judas Tadeu, estamos profundamente
         comprometidos com o cuidado da saúde e com a preservação do meio
         ambiente. Priorizamos práticas sustentáveis em nossos processos diários,

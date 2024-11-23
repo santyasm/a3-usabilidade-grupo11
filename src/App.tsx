@@ -10,7 +10,7 @@ import {
 
 function App() {
   return (
-    <div className="font-inter">
+    <div className="flex flex-col items-center overflow-x-hidden">
       <Header />
       <Home />
       <About />
